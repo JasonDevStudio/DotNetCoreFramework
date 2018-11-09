@@ -1,0 +1,9 @@
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/bin/Debug/netstandard2.0/EFCore.DataAccess.deps.json
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/bin/Debug/netstandard2.0/EFCore.DataAccess.dll
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/bin/Debug/netstandard2.0/EFCore.DataAccess.pdb
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/obj/Debug/netstandard2.0/EFCore.DataAccess.csprojAssemblyReference.cache
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/obj/Debug/netstandard2.0/EFCore.DataAccess.csproj.CoreCompileInputs.cache
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/obj/Debug/netstandard2.0/EFCore.DataAccess.AssemblyInfoInputs.cache
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/obj/Debug/netstandard2.0/EFCore.DataAccess.AssemblyInfo.cs
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/obj/Debug/netstandard2.0/EFCore.DataAccess.dll
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/obj/Debug/netstandard2.0/EFCore.DataAccess.pdb

@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.DataAccess", "DataAccess\EFCore.DataAccess\EFCore.DataAccess.csproj", "{99AC7C81-9070-45CE-A691-003C8EEDA84C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{FFAB1BAF-E405-4B87-8257-C33F89D8C72D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{7A0D2DAB-A3A3-4F67-A3F7-CBCD6A4A3EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commmon.Utility", "Utility\Commmon.Utility\Commmon.Utility.csproj", "{5BA03251-3512-4178-8AA1-219FEDD53820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99AC7C81-9070-45CE-A691-003C8EEDA84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AC7C81-9070-45CE-A691-003C8EEDA84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AC7C81-9070-45CE-A691-003C8EEDA84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AC7C81-9070-45CE-A691-003C8EEDA84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA03251-3512-4178-8AA1-219FEDD53820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA03251-3512-4178-8AA1-219FEDD53820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA03251-3512-4178-8AA1-219FEDD53820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA03251-3512-4178-8AA1-219FEDD53820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99AC7C81-9070-45CE-A691-003C8EEDA84C} = {FFAB1BAF-E405-4B87-8257-C33F89D8C72D}
+		{5BA03251-3512-4178-8AA1-219FEDD53820} = {7A0D2DAB-A3A3-4F67-A3F7-CBCD6A4A3EB9}
+	EndGlobalSection
+EndGlobal

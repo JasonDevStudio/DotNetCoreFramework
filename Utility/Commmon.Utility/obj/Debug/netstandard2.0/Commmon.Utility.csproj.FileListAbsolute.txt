@@ -1,0 +1,9 @@
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/bin/Debug/netstandard2.0/Commmon.Utility.deps.json
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/bin/Debug/netstandard2.0/Commmon.Utility.dll
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/bin/Debug/netstandard2.0/Commmon.Utility.pdb
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/Debug/netstandard2.0/Commmon.Utility.csprojAssemblyReference.cache
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/Debug/netstandard2.0/Commmon.Utility.csproj.CoreCompileInputs.cache
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/Debug/netstandard2.0/Commmon.Utility.AssemblyInfoInputs.cache
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/Debug/netstandard2.0/Commmon.Utility.AssemblyInfo.cs
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/Debug/netstandard2.0/Commmon.Utility.dll
+/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/Debug/netstandard2.0/Commmon.Utility.pdb
