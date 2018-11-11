@@ -1,0 +1,17 @@
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/EFCoreTests.deps.json
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/EFCoreTests.runtimeconfig.json
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/EFCoreTests.runtimeconfig.dev.json
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/EFCoreTests.dll
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/EFCoreTests.pdb
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/Commmon.Utility.dll
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/EFCore.DataAccess.dll
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/EFCore.Entities.dll
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/Commmon.Utility.pdb
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/EFCore.DataAccess.pdb
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/bin/Debug/netcoreapp2.1/EFCore.Entities.pdb
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.csproj.CoreCompileInputs.cache
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.AssemblyInfoInputs.cache
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.AssemblyInfo.cs
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.csproj.CopyComplete
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.dll
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.pdb

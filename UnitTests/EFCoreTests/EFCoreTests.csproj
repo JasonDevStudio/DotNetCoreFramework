@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Utility\Commmon.Utility\Commmon.Utility.csproj" />
+    <ProjectReference Include="..\..\DataAccess\EFCore.DataAccess\EFCore.DataAccess.csproj" />
+    <ProjectReference Include="..\..\Entities\EFCore.Entities\EFCore.Entities.csproj" />
+  </ItemGroup>
+</Project>

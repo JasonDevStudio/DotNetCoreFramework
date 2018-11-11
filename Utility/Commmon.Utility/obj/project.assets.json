@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/Commmon.Utility.csproj",
+      "projectUniqueName": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/Commmon.Utility.csproj",
       "projectName": "Commmon.Utility",
-      "projectPath": "/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/Commmon.Utility.csproj",
+      "projectPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/Commmon.Utility.csproj",
       "packagesPath": "/Users/yaojie/.nuget/packages/",
-      "outputPath": "/Volumes/VM_MAC/GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj",
+      "outputPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
