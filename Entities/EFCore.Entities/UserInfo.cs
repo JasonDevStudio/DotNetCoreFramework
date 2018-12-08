@@ -7,7 +7,7 @@ namespace EFCore.Entities
         /// Gets or sets the identifier.
         /// </summary>
         /// <value>The identifier.</value>
-        public decimal ID { get; set; }
+        public int ID { get; set; }
 
         /// <summary>
         /// Gets or sets the account.
@@ -25,7 +25,7 @@ namespace EFCore.Entities
         /// Gets or sets the CREATEDATE.
         /// </summary>
         /// <value>The CREATEDATE.</value>
-        public DateTime CREATEDATE { get; set; }
+        public string CREATEDATE { get; set; }
 
         /// <summary>
         /// Gets or sets the STATUS.

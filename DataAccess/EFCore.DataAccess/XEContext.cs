@@ -1,23 +1,24 @@
 ﻿using System;
 using EFCore.Entities;
-using Microsoft.EntityFrameworkCore; 
+using Microsoft.EntityFrameworkCore;
 
 namespace EFCore.DataAccess
 {
     public class XEContext : DbContext
     {
-        public XEContext():base(){}
+        public XEContext() : base() { }
 
-        public XEContext(DbContextOptions<XEContext> options):base(options){}
+        public XEContext(DbContextOptions<XEContext> options) : base(options) { }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseOracle("User ID=utest;Password=123456;Host=localhost;Port=1521;SID=xe;Pooling=true;Min Pool Size=1;Max Pool Size=100;Connection Lifetime=0;Direct=True;"); 
+            optionsBuilder.UseSqlite("Data Source=/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/DataBase/UTEST.db;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        { 
-            modelBuilder.Entity<UserInfo>().ToTable("USER_INFO", "UTEST").HasKey(m=>m.ID); 
-        } 
-    }  
+        {
+            modelBuilder.Entity<UserInfo>().ToTable("USER_INFO").HasKey(m => m.ID);
+        }
+    }
 }

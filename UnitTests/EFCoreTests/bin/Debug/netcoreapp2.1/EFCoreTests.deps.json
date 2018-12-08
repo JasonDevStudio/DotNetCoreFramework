@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "1f98c999c52379422c88164f4ea277bd836f7c45"
+    "signature": "148a1d2cc064d51f9435302123281fa5e61f58b5"
   },
   "compilationOptions": {},
   "targets": {
@@ -16,232 +16,267 @@
           "EFCoreTests.dll": {}
         }
       },
-      "Devart.Data/5.0.2045": {
+      "Devart.Data/5.0.2070": {
         "dependencies": {
           "Microsoft.Win32.Registry": "4.4.0"
         },
         "runtime": {
           "lib/netstandard2.0/Devart.Data.dll": {
-            "assemblyVersion": "5.0.2045.0",
-            "fileVersion": "5.0.2045.0"
+            "assemblyVersion": "5.0.2070.0",
+            "fileVersion": "5.0.2070.0"
           }
         }
       },
-      "Devart.Data.Oracle/9.6.621": {
+      "Devart.Data.Oracle/9.6.646": {
         "dependencies": {
-          "Devart.Data": "5.0.2045",
+          "Devart.Data": "5.0.2070",
           "Microsoft.Win32.Registry": "4.4.0",
           "System.Reflection.Emit": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0"
         },
         "runtime": {
           "lib/netstandard2.0/Devart.Data.Oracle.dll": {
-            "assemblyVersion": "9.6.621.0",
-            "fileVersion": "9.6.621.0"
+            "assemblyVersion": "9.6.646.0",
+            "fileVersion": "9.6.646.0"
           }
         }
       },
-      "Devart.Data.Oracle.EFCore/9.6.621": {
+      "Devart.Data.Oracle.EFCore/9.6.646": {
         "dependencies": {
-          "Devart.Data.Oracle": "9.6.621",
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.4"
+          "Devart.Data.Oracle": "9.6.646",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Devart.Data.Oracle.Entity.EFCore.dll": {
-            "assemblyVersion": "9.6.621.0",
-            "fileVersion": "9.6.621.0"
+            "assemblyVersion": "9.6.646.0",
+            "fileVersion": "9.6.646.0"
           }
         }
       },
       "Microsoft.CSharp/4.4.0": {},
-      "Microsoft.Data.Sqlite.Core/2.1.0": {
+      "Microsoft.Data.Sqlite.Core/2.2.0": {
         "dependencies": {
           "SQLitePCLRaw.core": "1.1.11"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.0.18136"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/2.1.4": {
+      "Microsoft.DotNet.PlatformAbstractions/2.1.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.1.4",
-          "Microsoft.EntityFrameworkCore.Analyzers": "2.1.4",
-          "Microsoft.Extensions.Caching.Memory": "2.1.1",
-          "Microsoft.Extensions.DependencyInjection": "2.1.1",
-          "Microsoft.Extensions.Logging": "2.1.1",
+          "System.AppContext": "4.1.0",
+          "System.Collections": "4.0.11",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.4.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/2.2.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.0",
+          "Microsoft.Extensions.Caching.Memory": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.Logging": "2.2.0",
           "Remotion.Linq": "2.2.0",
           "System.Collections.Immutable": "1.5.0",
           "System.ComponentModel.Annotations": "4.5.0",
-          "System.Diagnostics.DiagnosticSource": "4.5.1",
-          "System.Interactive.Async": "3.1.1"
+          "System.Diagnostics.DiagnosticSource": "4.5.0",
+          "System.Interactive.Async": "3.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "2.1.4.0",
-            "fileVersion": "2.1.4.18263"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/2.1.4": {
+      "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "2.1.4.0",
-            "fileVersion": "2.1.4.18263"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/2.1.4": {},
-      "Microsoft.EntityFrameworkCore.Relational/2.1.4": {
+      "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {},
+      "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.1.4"
+          "Microsoft.EntityFrameworkCore": "2.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "2.1.4.0",
-            "fileVersion": "2.1.4.18263"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite/2.1.4": {
+      "Microsoft.EntityFrameworkCore.Sqlite/2.2.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.1.4",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.2.0",
           "SQLitePCLRaw.bundle_green": "1.1.11"
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite.Core/2.1.4": {
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.0": {
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "2.1.0",
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.4"
+          "Microsoft.Data.Sqlite.Core": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "Microsoft.Extensions.DependencyModel": "2.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {
-            "assemblyVersion": "2.1.4.0",
-            "fileVersion": "2.1.4.18263"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
           }
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
+      "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.1.1"
+          "Microsoft.Extensions.Primitives": "2.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.Caching.Memory/2.1.1": {
+      "Microsoft.Extensions.Caching.Memory/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "2.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
-          "Microsoft.Extensions.Options": "2.1.1"
+          "Microsoft.Extensions.Caching.Abstractions": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.Configuration/2.1.1": {
+      "Microsoft.Extensions.Configuration/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "2.1.1"
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/2.1.1": {
+      "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.1.1"
+          "Microsoft.Extensions.Primitives": "2.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/2.1.1": {
+      "Microsoft.Extensions.Configuration.Binder/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.1.1"
+          "Microsoft.Extensions.Configuration": "2.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/2.1.1": {
+      "Microsoft.Extensions.DependencyInjection/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
         },
         "runtime": {
           "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.Logging/2.1.1": {
+      "Microsoft.Extensions.DependencyModel/2.1.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Binder": "2.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
-          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
-          "Microsoft.Extensions.Options": "2.1.1"
+          "Microsoft.DotNet.PlatformAbstractions": "2.1.0",
+          "Newtonsoft.Json": "12.0.1",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Linq": "4.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+      "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.Options/2.1.1": {
+      "Microsoft.Extensions.Options/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
-          "Microsoft.Extensions.Primitives": "2.1.1"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Primitives": "2.2.0",
+          "System.ComponentModel.Annotations": "4.5.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
-      "Microsoft.Extensions.Primitives/2.1.1": {
+      "Microsoft.Extensions.Primitives/2.2.0": {
         "dependencies": {
           "System.Memory": "4.5.1",
           "System.Runtime.CompilerServices.Unsafe": "4.5.1"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       },
@@ -261,11 +296,11 @@
           }
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.21924"
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
           }
         }
       },
@@ -290,6 +325,7 @@
           }
         }
       },
+      "runtime.native.System/4.0.0": {},
       "runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
@@ -429,6 +465,11 @@
           }
         }
       },
+      "System.AppContext/4.1.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Collections/4.0.11": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -480,12 +521,24 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Diagnostics.DiagnosticSource/4.5.1": {
-        "runtime": {
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
-            "assemblyVersion": "4.0.3.1",
-            "fileVersion": "4.6.26919.2"
-          }
+      "System.Diagnostics.DiagnosticSource/4.5.0": {},
+      "System.Dynamic.Runtime/4.0.11": {
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.4.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Threading": "4.0.11"
         }
       },
       "System.Globalization/4.0.11": {
@@ -493,11 +546,11 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Interactive.Async/3.1.1": {
+      "System.Interactive.Async/3.2.0": {
         "runtime": {
-          "lib/netstandard1.3/System.Interactive.Async.dll": {
-            "assemblyVersion": "3.0.3000.0",
-            "fileVersion": "3.1.1.0"
+          "lib/netstandard2.0/System.Interactive.Async.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.702"
           }
         }
       },
@@ -506,6 +559,21 @@
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.FileSystem/4.0.1": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.0.1",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.0.1",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.FileSystem.Primitives/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
         }
       },
       "System.Linq/4.1.0": {
@@ -624,6 +692,39 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Runtime.Handles/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.InteropServices/4.1.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.0.1"
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Threading": "4.0.11",
+          "runtime.native.System": "4.0.0"
+        },
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
       "System.Security.AccessControl/4.4.0": {
         "dependencies": {
           "System.Security.Principal.Windows": "4.4.0"
@@ -699,10 +800,10 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "Z.EntityFramework.Extensions.EFCore/2.1.38": {
+      "Z.EntityFramework.Extensions.EFCore/2.1.42": {
         "dependencies": {
           "Microsoft.CSharp": "4.4.0",
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.4",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
           "System.Configuration.ConfigurationManager": "4.4.0",
           "System.Data.SqlClient": "4.4.0",
           "System.Reflection.Emit": "4.3.0",
@@ -710,8 +811,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Z.EntityFramework.Extensions.EFCore.dll": {
-            "assemblyVersion": "2.1.38.0",
-            "fileVersion": "2.1.38.0"
+            "assemblyVersion": "2.1.42.0",
+            "fileVersion": "2.1.42.0"
           }
         }
       },
@@ -723,12 +824,12 @@
       "EFCore.DataAccess/1.0.0": {
         "dependencies": {
           "Commmon.Utility": "1.0.0",
-          "Devart.Data.Oracle.EFCore": "9.6.621",
+          "Devart.Data.Oracle.EFCore": "9.6.646",
           "EFCore.Entities": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "2.1.4",
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
-          "Newtonsoft.Json": "11.0.2",
-          "Z.EntityFramework.Extensions.EFCore": "2.1.38"
+          "Microsoft.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.0",
+          "Newtonsoft.Json": "12.0.1",
+          "Z.EntityFramework.Extensions.EFCore": "2.1.42"
         },
         "runtime": {
           "EFCore.DataAccess.dll": {}
@@ -747,26 +848,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Devart.Data/5.0.2045": {
+    "Devart.Data/5.0.2070": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-i19/KQDqnBN0CoYdrGcMtwKrZeRTt4xNyVmXHWEfUjvr6mG9altI0G3IcYa8hJKZQQCzBcA0Dqu95SMOpZ1fXA==",
-      "path": "devart.data/5.0.2045",
-      "hashPath": "devart.data.5.0.2045.nupkg.sha512"
+      "sha512": "sha512-Z/73q0Q4+t4p4LvK3TqHsvZkSlrdubKyyld5MNAfgZF7GCExYl9ENgipZnsLvLySsvPPsGHk4JpjVl0gXZSJpw==",
+      "path": "devart.data/5.0.2070",
+      "hashPath": "devart.data.5.0.2070.nupkg.sha512"
     },
-    "Devart.Data.Oracle/9.6.621": {
+    "Devart.Data.Oracle/9.6.646": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MPLOGBkaRqnASiYt2m/U1oiVDEkHeBdU6hS2+SZXZ3wBrv2AMVC/SQvLoxnq2bzUUKu2gMw5S2hDJci0WeEOYA==",
-      "path": "devart.data.oracle/9.6.621",
-      "hashPath": "devart.data.oracle.9.6.621.nupkg.sha512"
+      "sha512": "sha512-3htDU6YJ+Fhl9st1TT0zcIvWDeZWn7dRbVvcyjnJOK+HrHdI1T/sVim3s6lS8I677ns7+NcDnxjSU376dS0yWQ==",
+      "path": "devart.data.oracle/9.6.646",
+      "hashPath": "devart.data.oracle.9.6.646.nupkg.sha512"
     },
-    "Devart.Data.Oracle.EFCore/9.6.621": {
+    "Devart.Data.Oracle.EFCore/9.6.646": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VaJJcRj3JdZ+tHCQbmJpT7DKqvcfYYTFVAsCdeRSQe5/eUrYEszDST1pwPVr8J00lSfJ5SRxMDXyoz5QK3m+EQ==",
-      "path": "devart.data.oracle.efcore/9.6.621",
-      "hashPath": "devart.data.oracle.efcore.9.6.621.nupkg.sha512"
+      "sha512": "sha512-ifYfX6yksK6N26rmr4jYmNb9S70cPDskPwFB5nHmzNXtKh4tAZjkZvgcjOXrr8mS3DE3qB6gkFnko+O5fCeoZA==",
+      "path": "devart.data.oracle.efcore/9.6.646",
+      "hashPath": "devart.data.oracle.efcore.9.6.646.nupkg.sha512"
     },
     "Microsoft.CSharp/4.4.0": {
       "type": "package",
@@ -775,131 +876,145 @@
       "path": "microsoft.csharp/4.4.0",
       "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
     },
-    "Microsoft.Data.Sqlite.Core/2.1.0": {
+    "Microsoft.Data.Sqlite.Core/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OzFBXsbsjkNLqClNyBA8ldv3oLYK37JxP2c83xVe7UcxU2KvvqQy+VvQg97rEcMsZPgS4t3pTAv4W7xwaoYuug==",
-      "path": "microsoft.data.sqlite.core/2.1.0",
-      "hashPath": "microsoft.data.sqlite.core.2.1.0.nupkg.sha512"
+      "sha512": "sha512-03jlJVjpxawl8w0/mnuSXgMhmgZxeb+0HNzR1AZf1nBcikFE6DRVkWIRuHooTRArr2G2wtJul+EzFmt+1S9mVw==",
+      "path": "microsoft.data.sqlite.core/2.2.0",
+      "hashPath": "microsoft.data.sqlite.core.2.2.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore/2.1.4": {
+    "Microsoft.DotNet.PlatformAbstractions/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-72l8hbaJ5cXxZLCFeo46MDnvU8XJiDRNh1YQPzAlqVAlQrUwSVojYbJyOE7vbWqsb8rRqQYJ6NsmgPdUv/NKzw==",
-      "path": "microsoft.entityframeworkcore/2.1.4",
-      "hashPath": "microsoft.entityframeworkcore.2.1.4.nupkg.sha512"
+      "sha512": "sha512-wkCXkBS0q+5hsbeikjfsHCGP3nNe1L1MrDEBPCBKm+4UH8nXqHLxDZuBrTYaVY85CGIx2y1qW90nO6b+ORAfrA==",
+      "path": "microsoft.dotnet.platformabstractions/2.1.0",
+      "hashPath": "microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/2.1.4": {
+    "Microsoft.EntityFrameworkCore/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5Vc1zdCq7p+E/8ndJnTKHebJeqSC/1gb4hXDPi7UHdqURAxWl3lZV5+79x/dSfO/P6n/sEz5fURYGOMDoreXUA==",
-      "path": "microsoft.entityframeworkcore.abstractions/2.1.4",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.2.1.4.nupkg.sha512"
+      "sha512": "sha512-9XzZquAR+GM985YWDRFrFlXHPgCa250LVrxmkhbAhVkDCnuc8OUjyj0K2g9gN5Q79ILJkAhDfmBxBms+Mxpv0g==",
+      "path": "microsoft.entityframeworkcore/2.2.0",
+      "hashPath": "microsoft.entityframeworkcore.2.2.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/2.1.4": {
+    "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cYjXickepORM4UmNdqdZ3l74xhG5OHWMDxsFlqHJGm0qxLAHv5GAI2dKkkGslrjyaPYnfRW3JhAWubBWBt0XUg==",
-      "path": "microsoft.entityframeworkcore.analyzers/2.1.4",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.2.1.4.nupkg.sha512"
+      "sha512": "sha512-kYqXcp+NYZ+DxEuinyteBLtLf+LsDDnvNb0ljfB3aN5e8rzikS0FMmJDWWg6nhZLhlFnXCQ5KrsyriGspSjfvA==",
+      "path": "microsoft.entityframeworkcore.abstractions/2.2.0",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/2.1.4": {
+    "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cn/sEABCjVEp+Ji8LaDjGc7kjD2fJ9y46GL7rTnP1imWmdEYr3eL1oTNKOukMCNwjEGf1pZid0f0LKXaWBGbHw==",
-      "path": "microsoft.entityframeworkcore.relational/2.1.4",
-      "hashPath": "microsoft.entityframeworkcore.relational.2.1.4.nupkg.sha512"
+      "sha512": "sha512-8/LS/OW/KWU/TcLoaJbw/wWrqV4BD6bpZA94Qh/N084MyEzucoakL1ViNoGjCHk9c6MJptFBDBWLTXvdhJqP/w==",
+      "path": "microsoft.entityframeworkcore.analyzers/2.2.0",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.2.2.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Sqlite/2.1.4": {
+    "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mY93We4zTw3nAUaJ8VUMk2iVYV/yAg5kmzw3ew9Nv7VSrlix9yVPz1/kZZ680sCDY3cpSTB5R5gn+3+UrZCGlA==",
-      "path": "microsoft.entityframeworkcore.sqlite/2.1.4",
-      "hashPath": "microsoft.entityframeworkcore.sqlite.2.1.4.nupkg.sha512"
+      "sha512": "sha512-gfozvhextM1sJkFQ3ME3s7CdC0bKACtv1KyN6kYvBXKCmdmgqkNOqZR/F70sjEpwqZbWwdVHJzPWMADxvcDR1w==",
+      "path": "microsoft.entityframeworkcore.relational/2.2.0",
+      "hashPath": "microsoft.entityframeworkcore.relational.2.2.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Sqlite.Core/2.1.4": {
+    "Microsoft.EntityFrameworkCore.Sqlite/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fDNobKc1Ffb3z56ckiWJ7J64pbVDBNiX5XdGGygr7GbwY/rG541NRTX8kXOSvkUZ2qNgAYDqAYjUTYMmzBnRCw==",
-      "path": "microsoft.entityframeworkcore.sqlite.core/2.1.4",
-      "hashPath": "microsoft.entityframeworkcore.sqlite.core.2.1.4.nupkg.sha512"
+      "sha512": "sha512-I3AL3Ff9dy6vu8kJ2RgtIATYoRG1c5ghtOfT3kAI/jOpxFJ1Ih4BADdz49H1h4qo07AqCQiZ8VuOXyw4nUUKag==",
+      "path": "microsoft.entityframeworkcore.sqlite/2.2.0",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gcPRTtchou4pIEdLYhh9xoBDjwCaCLiTHJaFN2IWJCP+TGJcIHQYblPMftw6fajHER9ZrvPO5RYZUyLmH1eNIA==",
-      "path": "microsoft.extensions.caching.abstractions/2.1.1",
-      "hashPath": "microsoft.extensions.caching.abstractions.2.1.1.nupkg.sha512"
+      "sha512": "sha512-txg49u+R1IgXU+ufxwUDvRmAmsl/lhVat9aywGgjezXCYTWZoA/QdlI9b7IQafOeYTawUVsUoq471FGhHofyAA==",
+      "path": "microsoft.entityframeworkcore.sqlite.core/2.2.0",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.core.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Caching.Memory/2.1.1": {
+    "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KV2w9nelcxgl1Y028qmexCcgBK+CtZ18fE2eIypB1lUtLOGBrzP+XhcJTxBYwXPnYPkxazqdzcOfIRxz/Bq2uQ==",
-      "path": "microsoft.extensions.caching.memory/2.1.1",
-      "hashPath": "microsoft.extensions.caching.memory.2.1.1.nupkg.sha512"
+      "sha512": "sha512-L82fEbPUzi8K6+p4olT8BHtV5SWaIbQg/UGFcsq0STRXJ9I4XR2BazCKJF95Crqn0djENa3qC761eTnOuh+u1w==",
+      "path": "microsoft.extensions.caching.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration/2.1.1": {
+    "Microsoft.Extensions.Caching.Memory/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1JaydycXzbfAExlsD7XIWykzVnU/wZM86KzrHyGlXuxqnqzcWSXLJn4Ejn8bDnq07CEJNZ+GjsxWKlJ8kFfnvQ==",
-      "path": "microsoft.extensions.configuration/2.1.1",
-      "hashPath": "microsoft.extensions.configuration.2.1.1.nupkg.sha512"
+      "sha512": "sha512-p0IHvn/uCWZNavHf9EqT1kmZByzSbeqBXbn7Yo13RLIZhCVUsdik4v4gMEgAC+nN0zaTuBwLRysAB1+MFmIUng==",
+      "path": "microsoft.extensions.caching.memory/2.2.0",
+      "hashPath": "microsoft.extensions.caching.memory.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/2.1.1": {
+    "Microsoft.Extensions.Configuration/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9EMhOWU2eOQOtMIJ+vfwKJpnLRc1Wl3vXu8qXeevA91cSY4j3WvArmF7ApGtJwa7yKewJTvlQlBSn9OSnLFg6Q==",
-      "path": "microsoft.extensions.configuration.abstractions/2.1.1",
-      "hashPath": "microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512"
+      "sha512": "sha512-0MtJgCZ5tIw7LoxOlXlifwVTwfMd4YdMJ9+DVZyX/fqqXO9zseZ8hH2WxbJzDbBDp45nA8rwHlL4JH/6Z98B4w==",
+      "path": "microsoft.extensions.configuration/2.2.0",
+      "hashPath": "microsoft.extensions.configuration.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Binder/2.1.1": {
+    "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-t7KFAv6AxyUsZj9QN8FAbusg+X5baCELl+XtscyuP1IGUv5UctyY7/rNZLyiKaV7HhAcDQ1zC5ZQNQQFn6JpAA==",
-      "path": "microsoft.extensions.configuration.binder/2.1.1",
-      "hashPath": "microsoft.extensions.configuration.binder.2.1.1.nupkg.sha512"
+      "sha512": "sha512-M6u4cMWXxPtqyJJ03oezyqTORmSgTPpa2gZRKkEGCXXHhyGnM1cHjPTzq5sevYS1VJEMb2TZj60mAc+hDoPPcQ==",
+      "path": "microsoft.extensions.configuration.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/2.1.1": {
+    "Microsoft.Extensions.Configuration.Binder/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2nshYaLTn73Ie+/yTkb7EZIXwQeFIXsYCBy/jSY9bMayYykGNjdWa25frayhuPAGVbZpEgfgp3d4JRVEuVyEqQ==",
-      "path": "microsoft.extensions.dependencyinjection/2.1.1",
-      "hashPath": "microsoft.extensions.dependencyinjection.2.1.1.nupkg.sha512"
+      "sha512": "sha512-6ANwTuQZqIIt0guKAdS9Mn6c+PfhOBpqRm7FslUJqtG000uo0Cd3pAndk92RQq0ygDFRub/ftiRy8DukWXqNzQ==",
+      "path": "microsoft.extensions.configuration.binder/2.2.0",
+      "hashPath": "microsoft.extensions.configuration.binder.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1": {
+    "Microsoft.Extensions.DependencyInjection/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PW1596sF97gpIc1JuUuYvTmeLfeqC5whbWPsWgJhN0fdwz683him3b/HB0dqhFesVssOjnnA0fEz4+S0gUeBqA==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.1",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512"
+      "sha512": "sha512-ASF77AJjnyi9hL7IJU1KCAvnCTgI3JEwkU+D4gnKd53nFIYpibVjR6SW8tdTkkuZ+QkmIx2rPvKdTMNVPfVU9A==",
+      "path": "microsoft.extensions.dependencyinjection/2.2.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging/2.1.1": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-x4/RzeReQSIi4nVpOjXEySm/xUSr6lBjuecdYnlUboWxbLSm2j3vhFV5OLGRp3gfte3cRMdysMNa/wyZN0t/Tw==",
-      "path": "microsoft.extensions.logging/2.1.1",
-      "hashPath": "microsoft.extensions.logging.2.1.1.nupkg.sha512"
+      "sha512": "sha512-2xMk9LHz1EY+7gVG0lG4qBvkUiVjg8QNPqd2HYmEP5+PL7Ayo96EhBieAhd++Gx4yM+xN8kNqmhZdFMBHeG0HQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+    "Microsoft.Extensions.DependencyModel/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QWFWKrdeoDSEr8nVJaBAVDMj24wnh9clGzDNmMdgHHRsOIwTUMeh4XljeZXJhIKPT00jWuzwEzn3uNxOtO4cYg==",
-      "path": "microsoft.extensions.logging.abstractions/2.1.1",
-      "hashPath": "microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512"
+      "sha512": "sha512-3KPT6CLH0VEGr2um9aG1rYTmqfMVlkRuueFpN6AxeIKpcMA4OVHf4aNpgYXZ6oF+x4uh9VhK/66FgPCd1mMlnQ==",
+      "path": "microsoft.extensions.dependencymodel/2.1.0",
+      "hashPath": "microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options/2.1.1": {
+    "Microsoft.Extensions.Logging/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-j0zOfTt1Qm+JDW2m+6Q/aj1m4C8+onudUu4ls/fN69VxruZkMWmX1bPKkbkYIPNNxJsf4k7FOkVq5o1vEFq9pQ==",
-      "path": "microsoft.extensions.options/2.1.1",
-      "hashPath": "microsoft.extensions.options.2.1.1.nupkg.sha512"
+      "sha512": "sha512-wa1Uk8sVuEzHtwZPoDNhQiFDjlDe9t74+Iess26uqhIwn02T79v/GB/pLCJ08MOvuM953LfleJW6VPr/wVXCJw==",
+      "path": "microsoft.extensions.logging/2.2.0",
+      "hashPath": "microsoft.extensions.logging.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/2.1.1": {
+    "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Svz25/egj1TsNL4118jyMqkhDiu0l8QYWq2p52P4BBN0GbqwR18ZRIctSP5TTDJy0m0EFC8aB2FOVjGtvEGWSA==",
-      "path": "microsoft.extensions.primitives/2.1.1",
-      "hashPath": "microsoft.extensions.primitives.2.1.1.nupkg.sha512"
+      "sha512": "sha512-1iYT6BAnJZGebfclQXiM/drK+JUztSikkpT3xcASBQW4og877bsXtjqrMM4EI71nf8UVtvHt6O8pMdYDEE8/Lw==",
+      "path": "microsoft.extensions.logging.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-67zpvElD/YPcfRs1Qm58LSntnSm+kYSA+0PA4+0Abo7NEH4RAvUkV54krspsa0+S4yBZ/m39gUOdn3PSzffazQ==",
+      "path": "microsoft.extensions.options/2.2.0",
+      "hashPath": "microsoft.extensions.options.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vpH+o7f8obVx65PiEtBXxTwL5RosK60fNIMy/y8WGE4/r4IvAqQGukOzMhxsp//Accvd7kmukyQTVkqVYdaDyA==",
+      "path": "microsoft.extensions.primitives/2.2.0",
+      "hashPath": "microsoft.extensions.primitives.2.2.0.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.4.0": {
       "type": "package",
@@ -908,19 +1023,26 @@
       "path": "microsoft.win32.registry/4.4.0",
       "hashPath": "microsoft.win32.registry.4.4.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/11.0.2": {
+    "Newtonsoft.Json/12.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
-      "path": "newtonsoft.json/11.0.2",
-      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+      "sha512": "sha512-jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
     "Remotion.Linq/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
+      "sha512": "sha512-twDAH8dAXXCAf3sRv1Tf94u66eEHvgU75hfn1nn2v4fSWXD50XoDOAk8WpSrbViNuMkB4kN1ElnOGm1c519IHg==",
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
+    },
+    "runtime.native.System/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QfS/nQI7k/BLgmLrw7qm7YBoULEvgWnPI+cYsbfCVFTW8Aj+i8JhccxcFMu1RWms0YZzF+UHguNBK4Qn89e2Sg==",
+      "path": "runtime.native.system/4.0.0",
+      "hashPath": "runtime.native.system.4.0.0.nupkg.sha512"
     },
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
       "type": "package",
@@ -953,44 +1075,51 @@
     "SQLitePCLRaw.bundle_green/1.1.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Hqp8IF/RLjbypkLm+t+1RqAX8EKuWEkj7wkLXplfENQoPnE127cvTmaDvaQKtt7a5QsD/HNjFDr1z5f9q2wdPg==",
+      "sha512": "sha512-HOD1/Jg9VZtrOyPUCD9reQOXHq4r+fNe24qw5nghuiUcKch+9jePeRpt6MqGGUFhg2KW89KvE/RFlhpbfF8pKA==",
       "path": "sqlitepclraw.bundle_green/1.1.11",
       "hashPath": "sqlitepclraw.bundle_green.1.1.11.nupkg.sha512"
     },
     "SQLitePCLRaw.core/1.1.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QT17CyQAQIbTCu6pW5+uVA8BXqRzquiDI1tr5Un6c1YZcQydPmGPuYYng9xMs2UHUDYHbTu+JDkp55WR+qo9bQ==",
+      "sha512": "sha512-bWiOso10I1vDuc5rbzT69LQT0+oXfYnoqx8vKJ8zim/CJ4ytSd20QNTE/FE0dvWEgXGnvDp7gGJFu6PeWnhx9g==",
       "path": "sqlitepclraw.core/1.1.11",
       "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
     },
     "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yt79OujiYBueEUdhTQI+fIdmRpFEGcaMLziSCfhG2dsAERDvCQ+FB5tQgZBdFkB2kmVl0llskzBtwSbg3WEIdQ==",
+      "sha512": "sha512-x5nuN19UdLgPKcP94lTuVSDTosDGIU3HAMmozd0VoLY5/dCgSl2Ru41Tz44IsAW33ylftboQlnVhahCtVR+3AA==",
       "path": "sqlitepclraw.lib.e_sqlite3.linux/1.1.11",
       "hashPath": "sqlitepclraw.lib.e_sqlite3.linux.1.1.11.nupkg.sha512"
     },
     "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-o6rxxAFS5Hya6AXCA/eU+1QqwpGVHJBaJjIG+Mui3kIqcV6d+qz0zi46i1QNK6TAel8Sj4QlXO85wNPN70BMEg==",
+      "sha512": "sha512-mjLRS9qb8JnKKHdowd3bSlOnEGSgGuXREBXHU8xecUlMCLoKMj7XEg7EDQeeu89aYGtSegLY95BRHnA9p0+q2g==",
       "path": "sqlitepclraw.lib.e_sqlite3.osx/1.1.11",
       "hashPath": "sqlitepclraw.lib.e_sqlite3.osx.1.1.11.nupkg.sha512"
     },
     "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-h1Jng85sdFV/IC+Lri+buN1r5Kd0kgh0lh/pc4jlHd3tljZhc2Si2GW1VD0hJc4p/P4oSVa2426hBAi1y6/goA==",
+      "sha512": "sha512-JvtHjNrd/est9wJitEiWx1O08XqBm4/l3Lhf01cFf9cIoNxhI+/idcYLMKS4XhewgaSHpuB1/Pi1W6VRjXrmIg==",
       "path": "sqlitepclraw.lib.e_sqlite3.v110_xp/1.1.11",
       "hashPath": "sqlitepclraw.lib.e_sqlite3.v110_xp.1.1.11.nupkg.sha512"
     },
     "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6q2qXc7GA11ZFh3ATFj9LjzF0HfMtlN1hDi8QATSoML4sR+inquXdionvyX8nUegutOAGXjKDp+8MziaUV5Pkg==",
+      "sha512": "sha512-fvDbTA/2+A3sfLlXYXOHKIFP/ZcL8yQJnr+VxwyCy2BPK2jLZg3XXStc1AokU5uC+dCDl5k3bpCiBdqYU1bz6g==",
       "path": "sqlitepclraw.provider.e_sqlite3.netstandard11/1.1.11",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.11.nupkg.sha512"
+    },
+    "System.AppContext/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3QjO4jNV7PdKkmQAVp9atA+usVnKRwI3Kx1nMwJ93T0LcQfx7pKAYk0nKz5wn1oP5iqlhZuy6RXOFdhr7rDwow==",
+      "path": "system.appcontext/4.1.0",
+      "hashPath": "system.appcontext.4.1.0.nupkg.sha512"
     },
     "System.Collections/4.0.11": {
       "type": "package",
@@ -1034,12 +1163,19 @@
       "path": "system.diagnostics.debug/4.0.11",
       "hashPath": "system.diagnostics.debug.4.0.11.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/4.5.1": {
+    "System.Diagnostics.DiagnosticSource/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-m86SgxAIi5j0iGzx2y1LrcMcopIYfinfcojyQ9CcNRy3MZvi0dVuDlMj2M7kV6MMGSunqZ+OnQ+rQbxWafFBaw==",
-      "path": "system.diagnostics.diagnosticsource/4.5.1",
-      "hashPath": "system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512"
+      "sha512": "sha512-UumL3CJklk5WyEt0eImPmjeuyY1JgJ7Thmg2hAeZGKCv+9iuuAsoc2wcXjypdo3J8VNEmVCH2Bgn/kIw8NI2bA==",
+      "path": "system.diagnostics.diagnosticsource/4.5.0",
+      "hashPath": "system.diagnostics.diagnosticsource.4.5.0.nupkg.sha512"
+    },
+    "System.Dynamic.Runtime/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
+      "path": "system.dynamic.runtime/4.0.11",
+      "hashPath": "system.dynamic.runtime.4.0.11.nupkg.sha512"
     },
     "System.Globalization/4.0.11": {
       "type": "package",
@@ -1048,12 +1184,12 @@
       "path": "system.globalization/4.0.11",
       "hashPath": "system.globalization.4.0.11.nupkg.sha512"
     },
-    "System.Interactive.Async/3.1.1": {
+    "System.Interactive.Async/3.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hZccYiIE5RS1/J9Tb/BNtosAGVggdlsJm4Ojdu+gDV0p4AIi+LUfUogMKkRacljQEJd2AG6vYzvcjhQFkqoZmw==",
-      "path": "system.interactive.async/3.1.1",
-      "hashPath": "system.interactive.async.3.1.1.nupkg.sha512"
+      "sha512": "sha512-T3nigy9yShklMyVu7I2TvlVMRy2vUn9oQeBaRy0KZcOptyy+rUbekYaXxoa3s0h2tWT3UVtzrGkQC89CBbCtlg==",
+      "path": "system.interactive.async/3.2.0",
+      "hashPath": "system.interactive.async.3.2.0.nupkg.sha512"
     },
     "System.IO/4.3.0": {
       "type": "package",
@@ -1061,6 +1197,20 @@
       "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "path": "system.io/4.3.0",
       "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.IO.FileSystem/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IBErlVq5jOggAD69bg1t0pJcHaDbJbWNUZTPI96fkYWzwYbN6D9wRHMULLDd9dHsl7C2YsxXL31LMfPI1SWt8w==",
+      "path": "system.io.filesystem/4.0.1",
+      "hashPath": "system.io.filesystem.4.0.1.nupkg.sha512"
+    },
+    "System.IO.FileSystem.Primitives/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kWkKD203JJKxJeE74p8aF8y4Qc9r9WQx4C0cHzHPrY3fv/L/IhWnyCHaFJ3H1QPOH6A93whlQ2vG5nHlBDvzWQ==",
+      "path": "system.io.filesystem.primitives/4.0.1",
+      "hashPath": "system.io.filesystem.primitives.4.0.1.nupkg.sha512"
     },
     "System.Linq/4.1.0": {
       "type": "package",
@@ -1163,7 +1313,7 @@
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qUJMNWhbm9oZ3XaMFiEMiYmRPszbnXIkRIi7+4b2Md2xZ6JUOepf0/kY3S85qistRohl9OdMe4PsO+RdG2kTIQ==",
+      "sha512": "sha512-x/3d5xb+mc9e4I2GOOT+HPRWMZLbYjNN/kYKsb0fyUKcWizn/t1CIrGRLIBhv7H0ptYEt+WTTztdPmwSUMyKig==",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
     },
@@ -1173,6 +1323,27 @@
       "sha512": "sha512-CUOHjTT/vgP0qGW22U4/hDlOqXmcPq5YicBaXdUR2UiUoLwBT+olO6we4DVbq57jeX5uXH2uerVZhf0qGj+sVQ==",
       "path": "system.runtime.extensions/4.1.0",
       "hashPath": "system.runtime.extensions.4.1.0.nupkg.sha512"
+    },
+    "System.Runtime.Handles/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nCJvEKguXEvk2ymk1gqj625vVnlK3/xdGzx0vOKicQkoquaTBJTP13AIYkocSUwHCLNBwUbXTqTWGDxBTWpt7g==",
+      "path": "system.runtime.handles/4.0.1",
+      "hashPath": "system.runtime.handles.4.0.1.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16eu3kjHS633yYdkjwShDHZLRNMKVi/s0bY8ODiqJ2RfMhDMAwxZaUaWVnZ2P71kr/or+X9o/xFWtNqz8ivieQ==",
+      "path": "system.runtime.interopservices/4.1.0",
+      "hashPath": "system.runtime.interopservices.4.1.0.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hWPhJxc453RCa8Z29O91EmfGeZIHX1ZH2A8L6lYQVSaKzku2DfArSfMEb1/MYYzPQRJZeu0c9dmYeJKxW5Fgng==",
+      "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
+      "hashPath": "system.runtime.interopservices.runtimeinformation.4.0.0.nupkg.sha512"
     },
     "System.Security.AccessControl/4.4.0": {
       "type": "package",
@@ -1223,12 +1394,12 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "Z.EntityFramework.Extensions.EFCore/2.1.38": {
+    "Z.EntityFramework.Extensions.EFCore/2.1.42": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qsGXukhp3KoKeIoqiL/0RkZkscFbJhj/fec2v/H1UfDXY30OPorDmFNfEXgFIUbgL1u967RYGizaaXROlvG9dA==",
-      "path": "z.entityframework.extensions.efcore/2.1.38",
-      "hashPath": "z.entityframework.extensions.efcore.2.1.38.nupkg.sha512"
+      "sha512": "sha512-JJ2M50owUkKWsew70Pp/eYltVqP/yCw8OKpE+E7XUTyQP+JxevQ3DradbxvdyUuvwVXPxrv9xRIvPmLNJrjBIQ==",
+      "path": "z.entityframework.extensions.efcore/2.1.42",
+      "hashPath": "z.entityframework.extensions.efcore.2.1.42.nupkg.sha512"
     },
     "Commmon.Utility/1.0.0": {
       "type": "project",

@@ -15,3 +15,4 @@
 /Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.csproj.CopyComplete
 /Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.dll
 /Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.pdb
+/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/obj/Debug/netcoreapp2.1/EFCoreTests.csprojAssemblyReference.cache
