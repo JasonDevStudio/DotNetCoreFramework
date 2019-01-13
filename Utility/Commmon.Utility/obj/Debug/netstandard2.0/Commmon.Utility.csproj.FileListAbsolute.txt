@@ -16,3 +16,12 @@
 /Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/Debug/netstandard2.0/Commmon.Utility.AssemblyInfo.cs
 /Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/Debug/netstandard2.0/Commmon.Utility.dll
 /Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/Debug/netstandard2.0/Commmon.Utility.pdb
+D:\Repos\DotNetCoreFramework\Utility\Commmon.Utility\bin\Debug\netstandard2.0\Commmon.Utility.deps.json
+D:\Repos\DotNetCoreFramework\Utility\Commmon.Utility\bin\Debug\netstandard2.0\Commmon.Utility.dll
+D:\Repos\DotNetCoreFramework\Utility\Commmon.Utility\bin\Debug\netstandard2.0\Commmon.Utility.pdb
+D:\Repos\DotNetCoreFramework\Utility\Commmon.Utility\obj\Debug\netstandard2.0\Commmon.Utility.csprojAssemblyReference.cache
+D:\Repos\DotNetCoreFramework\Utility\Commmon.Utility\obj\Debug\netstandard2.0\Commmon.Utility.csproj.CoreCompileInputs.cache
+D:\Repos\DotNetCoreFramework\Utility\Commmon.Utility\obj\Debug\netstandard2.0\Commmon.Utility.AssemblyInfoInputs.cache
+D:\Repos\DotNetCoreFramework\Utility\Commmon.Utility\obj\Debug\netstandard2.0\Commmon.Utility.AssemblyInfo.cs
+D:\Repos\DotNetCoreFramework\Utility\Commmon.Utility\obj\Debug\netstandard2.0\Commmon.Utility.dll
+D:\Repos\DotNetCoreFramework\Utility\Commmon.Utility\obj\Debug\netstandard2.0\Commmon.Utility.pdb

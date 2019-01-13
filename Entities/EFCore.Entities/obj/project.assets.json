@@ -178,28 +178,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/yaojie/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\jiede\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Entities/EFCore.Entities/EFCore.Entities.csproj",
+      "projectUniqueName": "D:\\Repos\\DotNetCoreFramework\\Entities\\EFCore.Entities\\EFCore.Entities.csproj",
       "projectName": "EFCore.Entities",
-      "projectPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Entities/EFCore.Entities/EFCore.Entities.csproj",
-      "packagesPath": "/Users/yaojie/.nuget/packages/",
-      "outputPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Entities/EFCore.Entities/obj",
+      "projectPath": "D:\\Repos\\DotNetCoreFramework\\Entities\\EFCore.Entities\\EFCore.Entities.csproj",
+      "packagesPath": "C:\\Users\\jiede\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\DotNetCoreFramework\\Entities\\EFCore.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/yaojie/.config/NuGet/NuGet.Config"
+        "C:\\Users\\jiede\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

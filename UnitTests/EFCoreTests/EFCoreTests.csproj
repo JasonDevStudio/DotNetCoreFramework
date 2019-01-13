@@ -6,6 +6,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Devart.Data.Oracle.key" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Devart.Data.Oracle.key">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Utility\Commmon.Utility\Commmon.Utility.csproj" />
     <ProjectReference Include="..\..\DataAccess\EFCore.DataAccess\EFCore.DataAccess.csproj" />
     <ProjectReference Include="..\..\Entities\EFCore.Entities\EFCore.Entities.csproj" />
