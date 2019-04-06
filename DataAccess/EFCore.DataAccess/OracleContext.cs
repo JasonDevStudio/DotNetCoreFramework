@@ -14,7 +14,7 @@ namespace EFCore.DataAccess
          
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseOracle($"Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.2)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ORCLCDB)));User Id=USERTEST;Password=v43d/Ox4btE=1");
+            optionsBuilder.UseOracle($"Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.2)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ORCLPDB1)));User Id=USERTEST;Password=123456");
 
             //var csb = new Devart.Common.DbConnectionStringBuilder();
             //csb["Direct"] = true;

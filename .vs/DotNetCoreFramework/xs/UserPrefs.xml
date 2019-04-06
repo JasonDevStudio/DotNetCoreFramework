@@ -1,24 +1,27 @@
-﻿<Properties StartupConfiguration="{F0EFD0DB-D1D4-4223-A4AE-2B5075A280F8}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{F0EFD0DB-D1D4-4223-A4AE-2B5075A280F8}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.Workbench ActiveDocument="DotNetCoreFramework 状态">
     <Files>
-      <File FileName="DataAccess/EFCore.DataAccess/OracleContext.cs" Line="34" Column="74" />
-      <File FileName="DataAccess/EFCore.DataAccess/EFHelper.cs" Line="17" Column="1" />
-      <File FileName="UnitTests/EFCoreTests/EFHelperTest.cs" Line="23" Column="1" />
-      <File FileName="UnitTests/EFCoreTests/Program.cs" Line="23" Column="51" />
-      <File FileName="Entities/EFCore.Entities/UserInfo.cs" Line="22" Column="48" />
-      <File FileName="Entities/EFCore.Entities/EntityBase.cs" Line="4" Column="26" />
+      <File FileName="UnitTests/EFCoreTests/Program.cs" Line="18" Column="1" />
+      <File FileName="UnitTests/EFCoreTests/EFHelperTest.cs" Line="37" Column="1" />
+      <File FileName="DataAccess/EFCore.DataAccess/EFHelper.cs" Line="77" Column="10" />
+      <File FileName="DataAccess/EFCore.DataAccess/OracleContext.cs" Line="30" Column="1" />
       <File FileName="DotNetCoreFramework 状态" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DotNetCoreFramework" expanded="True" selected="True">
+          <Node name="DotNetCoreFramework" expanded="True">
             <Node name="DataAccess" expanded="True">
-              <Node name="EFCore.DataAccess" expanded="True" />
+              <Node name="EFCore.DataAccess" expanded="True">
+                <Node name="EFHelper.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="UnitTests" expanded="True">
-              <Node name="EFCoreTests" expanded="True">
-                <Node name="References" expanded="True" />
+              <Node name="EFCoreTests" expanded="True" />
+            </Node>
+            <Node name="Utility" expanded="True">
+              <Node name="Commmon.Utility" expanded="True">
+                <Node name="Enums" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -33,7 +36,7 @@
     <BreakpointStore>
       <Breakpoint file="/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreXUnitTests/EFCoreMSTests/UnitTest1.cs" relfile="UnitTests/EFCoreXUnitTests/EFCoreMSTests/UnitTest1.cs" line="15" column="29" />
       <Breakpoint file="/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreXUnitTests/UnitTest1.cs" relfile="UnitTests/EFCoreXUnitTests/UnitTest1.cs" line="14" column="14" />
-      <Breakpoint file="/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/Program.cs" relfile="UnitTests/EFCoreTests/Program.cs" line="16" column="37" />
+      <Breakpoint file="/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/Program.cs" relfile="UnitTests/EFCoreTests/Program.cs" line="17" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
