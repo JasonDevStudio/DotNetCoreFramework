@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -178,31 +178,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jiede\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/yaojie/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\DotNetCoreFramework\\Utility\\Commmon.Utility\\Commmon.Utility.csproj",
+      "projectUniqueName": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/Commmon.Utility.csproj",
       "projectName": "Commmon.Utility",
-      "projectPath": "D:\\Repos\\DotNetCoreFramework\\Utility\\Commmon.Utility\\Commmon.Utility.csproj",
-      "packagesPath": "C:\\Users\\jiede\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\DotNetCoreFramework\\Utility\\Commmon.Utility\\obj\\",
+      "projectPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/Commmon.Utility.csproj",
+      "packagesPath": "/Users/yaojie/.nuget/packages/",
+      "outputPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jiede\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/yaojie/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {

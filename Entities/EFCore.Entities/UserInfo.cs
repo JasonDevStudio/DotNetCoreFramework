@@ -19,6 +19,6 @@ namespace EFCore.Entities
         /// Gets or sets the CREATEDATE.
         /// </summary>
         /// <value>The CREATEDATE.</value>
-        public string CREATEDATE { get; set; }
+        public string CREATEDATE { get; set; } 
     }
 }

@@ -2,46 +2,6 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Devart.Data/5.0.2099": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Win32.Registry": "4.4.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Devart.Data.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Devart.Data.dll": {}
-        }
-      },
-      "Devart.Data.Oracle/9.6.675": {
-        "type": "package",
-        "dependencies": {
-          "Devart.Data": "5.0.2099",
-          "Microsoft.Win32.Registry": "4.4.0",
-          "System.Reflection.Emit": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Devart.Data.Oracle.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Devart.Data.Oracle.dll": {}
-        }
-      },
-      "Devart.Data.Oracle.EFCore/9.6.675": {
-        "type": "package",
-        "dependencies": {
-          "Devart.Data.Oracle": "9.6.675",
-          "Microsoft.EntityFrameworkCore.Relational": "2.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Devart.Data.Oracle.Entity.EFCore.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Devart.Data.Oracle.Entity.EFCore.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.4.0": {
         "type": "package",
         "compile": {
@@ -329,7 +289,7 @@
           "System.Security.Principal.Windows": "4.4.0"
         },
         "compile": {
-          "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
@@ -363,6 +323,28 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Oracle.EntityFrameworkCore/2.18.0-beta3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "[2.1.1, 3.0.0)",
+          "Oracle.ManagedDataAccess.Core": "[2.18.6, 2.19.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/Oracle.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Oracle.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Oracle.ManagedDataAccess.Core/2.18.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -948,7 +930,7 @@
           "System.Security.Principal.Windows": "4.4.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Security.AccessControl.dll": {}
@@ -978,7 +960,7 @@
       "System.Security.Principal.Windows/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
@@ -1070,6 +1052,9 @@
       "EFCore.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
         "compile": {
           "bin/placeholder/EFCore.Entities.dll": {}
         },
@@ -1080,53 +1065,11 @@
     }
   },
   "libraries": {
-    "Devart.Data/5.0.2099": {
-      "sha512": "EE4BvpxP4WfO3pUBFaGq1Rld8bw+X0mOS843rTq6D70A4fhBPoQjh5PZlWlkWH+60HXUG6QhUU25O4NCKKvpug==",
-      "type": "package",
-      "path": "devart.data/5.0.2099",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "devart.data.5.0.2099.nupkg.sha512",
-        "devart.data.nuspec",
-        "lib/netstandard1.3/Devart.Data.dll",
-        "lib/netstandard2.0/Devart.Data.dll"
-      ]
-    },
-    "Devart.Data.Oracle/9.6.675": {
-      "sha512": "VYoZFtXPtVPau9fD6psDy0FTpzxdB88VWDjDgwCbzOoU/6IRWIp2lTTpUAX+VL6nF/FE/9RB5j61KApnbaQQlw==",
-      "type": "package",
-      "path": "devart.data.oracle/9.6.675",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/app.config.transform",
-        "content/web.config.transform",
-        "devart.data.oracle.9.6.675.nupkg.sha512",
-        "devart.data.oracle.nuspec",
-        "lib/netstandard1.3/Devart.Data.Oracle.dll",
-        "lib/netstandard2.0/Devart.Data.Oracle.dll"
-      ]
-    },
-    "Devart.Data.Oracle.EFCore/9.6.675": {
-      "sha512": "fcKmG9j8v1vzLUaGi07b9Kia8CFnZWvlsopZZ4Gg90ne8+OWQcwxx6FDL8LDNp6gSin/ZAwow6JQjlQeKsqhlw==",
-      "type": "package",
-      "path": "devart.data.oracle.efcore/9.6.675",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "devart.data.oracle.efcore.9.6.675.nupkg.sha512",
-        "devart.data.oracle.efcore.nuspec",
-        "lib/netstandard1.3/Devart.Data.Oracle.Entity.EFCore.dll",
-        "lib/netstandard2.0/Devart.Data.Oracle.Entity.EFCore.dll"
-      ]
-    },
     "Microsoft.CSharp/4.4.0": {
-      "sha512": "Mg7IqHdgGsyeXSApz85limYBHCUk4dQF4EPnSqcIfFiFA2C6bH4jdtYTsLeYnRN03BkPlNHXtbwlzGn8ASq8LA==",
+      "sha512": "ShGjgRL3UHUXcoPSlq8jDB6b+9WHo4n8VcY9ex7egt6kuHFuK3Z6BUN9ClF3Y8dR1yIoaRkHPQBfX/IH5i/YXg==",
       "type": "package",
       "path": "microsoft.csharp/4.4.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -1188,11 +1131,10 @@
       ]
     },
     "Microsoft.Data.Sqlite.Core/2.2.1": {
-      "sha512": "Hvpoyx/mJB5IKlKipG9aEdpYFSicscgTysL0127fdczliTRbRR1u7wAvtbDYOceWo+BD1wj+UZEiz5DsBg8bUw==",
+      "sha512": "2LLmsCSl8jw44RmjIDkzqnfp1TnuB5YczcYAX4yA2j0hC93gldXl8oa0tSh3AGLIMyJ3/YYqsM0NeeOWNINNJA==",
       "type": "package",
       "path": "microsoft.data.sqlite.core/2.2.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
@@ -1216,11 +1158,10 @@
       ]
     },
     "Microsoft.EntityFrameworkCore/2.2.1": {
-      "sha512": "NPLUN0CjvxirJYcsXdmxQKUKxKGlRikTYk3DYJZN2EZmfvtqgyphwe2wDM6rii8DAIJG/Yb5NeMapkT+eHGrLA==",
+      "sha512": "8E6suP76WmhXgsl7MXWokmwxr/9GaSMq+YADhw+g1XbWEtSJC381jAuklqJZlOo+3RlP1+2LYpXKFAgt4jxl+Q==",
       "type": "package",
       "path": "microsoft.entityframeworkcore/2.2.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
@@ -1229,11 +1170,10 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Abstractions/2.2.1": {
-      "sha512": "ps+DT7pm2v/hp+fL1IFFOO/IcklhvRpWJhEfnVG5SOKHQkCAMmm6bOKiBPMvf34AyjJE57REUFsyqJxl/j7g+w==",
+      "sha512": "xTlyHN8gmojJpP6EDHcWake5sygckiOWW/AbA0J4iGC45VOQXyPcjJNzF3vW6RqKoHhxJsFzLJtwvsfKn2IVKg==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.abstractions/2.2.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
@@ -1242,11 +1182,10 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Analyzers/2.2.1": {
-      "sha512": "4gmeUeD1WFCXJLelSTRmS0O0ozYSPzUsectv6lLfhiCtS7AIIk1MBsRZzSrHiVzOv7b+ksLn76mmM0rG1f1kFg==",
+      "sha512": "MUOCjjxvf78hJwtoT4QI3y0MoWy0JN5tKikG+8C4cT/Dg9LIDN4w74CRkI0zo5wbUaRbLK1bM5Xj0zA/bFp9Vg==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.analyzers/2.2.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "microsoft.entityframeworkcore.analyzers.2.2.1.nupkg.sha512",
@@ -1267,11 +1206,10 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Sqlite/2.2.1": {
-      "sha512": "dwvizjWunx+/iy3SvWVa79U4UdthTMHfTx+YxSyqYkHXE3AO5HTTn5RLAIaTfVuzfWOx+es4jsnJp9LWmVs9bA==",
+      "sha512": "EkBjDLoP+Rsc4bdeicIDSZbu21k7p+dL1UzCmUkggFidUw3lsMJ7bFcbHC5+uG2dZnuB1Uoi4tOkVZs4kvKMBQ==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.sqlite/2.2.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.sqlite.2.2.1.nupkg.sha512",
@@ -1455,7 +1393,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -1470,10 +1408,12 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "sha512": "HvAzpoaIqrmZfsHAN4rLFji0r7YY5TP8r3SdkziXN7qU9KCpRIG+zfcBx+mIri/jkBNqjq4iWIfuYNtFBjSQ/g==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -1684,6 +1624,35 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.12.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Oracle.EntityFrameworkCore/2.18.0-beta3": {
+      "sha512": "K/WsbOFAkfNWQ0tT9zxn3xr93e7vemQsv9ENl+N+C/c0H3Ypcd6DVHGFs9yq2EuLs7m3SLv7WgqrdfK5AdxDaw==",
+      "type": "package",
+      "path": "oracle.entityframeworkcore/2.18.0-beta3",
+      "files": [
+        ".signature.p7s",
+        "ODP.NET-EF-Core-Beta-3-Documentation.pdf",
+        "info.txt",
+        "lib/netstandard2.0/Oracle.EntityFrameworkCore.dll",
+        "oracle.entityframeworkcore.2.18.0-beta3.nupkg.sha512",
+        "oracle.entityframeworkcore.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Oracle.ManagedDataAccess.Core/2.18.6": {
+      "sha512": "+mS+PFu4BnTKzw2/fOpPEEOracUhIGVyZlu926iTQa7QRb00j6x+GyaIzVvYrQlPQ+FqmCuHpx018yx5agh6Fw==",
+      "type": "package",
+      "path": "oracle.manageddataaccess.core/2.18.6",
+      "files": [
+        ".signature.p7s",
+        "PerfCounters/register_odpc_perfmon_counters.ps1",
+        "PerfCounters/unregister_odpc_perfmon_counters.ps1",
+        "info.txt",
+        "lib/netstandard2.0/Oracle.ManagedDataAccess.dll",
+        "oracle.manageddataaccess.core.2.18.6.nupkg.sha512",
+        "oracle.manageddataaccess.core.nuspec",
+        "readme.txt"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -1995,7 +1964,7 @@
       ]
     },
     "System.Collections.Immutable/1.5.0": {
-      "sha512": "EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "sha512": "RGxi2aQoXgZ5ge0zxrKqI4PU9LrYYoLC+cnEnWXKsSduCOUhE1GEAAoTexUVT8RZOILQyy1B27HC8Xw/XLGzdQ==",
       "type": "package",
       "path": "system.collections.immutable/1.5.0",
       "files": [
@@ -2018,7 +1987,7 @@
       ]
     },
     "System.ComponentModel.Annotations/4.5.0": {
-      "sha512": "IjDa643EO77A4CL9dhxfZ6zzGu+pM8Ar0NYPRMN3TvDiga4uGDzFHOj/ArpyNxxKyO5IFT2LZ0rK3kUog7g3jA==",
+      "sha512": "f1ApUHGWq/lJC8PZE7JqbA3tiY7ZngZQO2mbYfCG0JlQVVUqqmVMAy0fMvAwEuG639M47ELdP6PQxc5OIo6i6A==",
       "type": "package",
       "path": "system.componentmodel.annotations/4.5.0",
       "files": [
@@ -2261,7 +2230,7 @@
       ]
     },
     "System.Diagnostics.DiagnosticSource/4.5.0": {
-      "sha512": "eIHRELiYDQvsMToML81QFkXEEYXUSUT2F28t1SGrevWqP+epFdw80SyAXIKTXOHrIEXReFOEnEr7XlGiC2GgOg==",
+      "sha512": "UumL3CJklk5WyEt0eImPmjeuyY1JgJ7Thmg2hAeZGKCv+9iuuAsoc2wcXjypdo3J8VNEmVCH2Bgn/kIw8NI2bA==",
       "type": "package",
       "path": "system.diagnostics.diagnosticsource/4.5.0",
       "files": [
@@ -2443,12 +2412,11 @@
       ]
     },
     "System.IO/4.3.0": {
-      "sha512": "v8paIePhmGuXZbE9xvvNb4uJ5ME4OFXR1+8la/G/L1GIl2nbU2WFnddgb79kVK3U2us7q1aZT/uY/R0D/ovB5g==",
+      "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "type": "package",
       "path": "system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2808,7 +2776,7 @@
       ]
     },
     "System.Memory/4.5.1": {
-      "sha512": "sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
+      "sha512": "vcG3/MbfpxznMkkkaAblJi7RHOmuP7kawQMhDgLSuA1tRpRQYsFSCTxRSINDUgn2QNn2jWeLxv8er5BXbyACkw==",
       "type": "package",
       "path": "system.memory/4.5.1",
       "files": [
@@ -2944,12 +2912,11 @@
       ]
     },
     "System.Reflection/4.3.0": {
-      "sha512": "IyW2ftYNzgMCgHBk8lQiy+G3+ydbU5tE+6PEqM5JJvIdeFKaXDSzHAPYDREPe6zpr5WJ1Fcma+rAFCIAV6+DMw==",
+      "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
       "path": "system.reflection/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3025,12 +2992,11 @@
       ]
     },
     "System.Reflection.Emit/4.3.0": {
-      "sha512": "vkUFFGejarllQQ8RKkdfuBUQpVlTR9HMDEawKOBDajOSGN08Bz8EjC0zi2fcE7RXQikLbEb1WYJQP3So8mmIGA==",
+      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3061,12 +3027,11 @@
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
-      "sha512": "6b5fYr9ksZR6SYVzNzBqXQmAaGtY1mWYnpQAarBKp+C79NhUPRtX1bs4B5BS8nXzObcwVKc1fk+jVyCKCshdaQ==",
+      "sha512": "59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3192,12 +3157,11 @@
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
-      "sha512": "1LnMkF9aXKuQAgYzjoiQaL9mwY7oY6KdaO/zzeLMynNBEqKoUfLi5TiKIewoAF+hkxfGTZsjkjsF1jRL4uSeqg==",
+      "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
       "type": "package",
       "path": "system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3249,11 +3213,10 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.4.0": {
-      "sha512": "BWYdrACMy1Sbq7Kh1oISS+2qKX1dHhXNpRByG3c6M9i2fhU9BZqO3nFYIabmbZuQwd7svR5zfxNHgmgv2XkkIg==",
+      "sha512": "JRxOAH6by+wn1gNnZc9jf2HbO/szhMJuLY2w44nEW77354WntXlFzWSVkx6280Uvcl3URZ/At+444vjX0/X1Aw==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.4.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -3368,12 +3331,11 @@
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "kqsiSfCAc8+v3Ez719s21lGthxuNi6lhAGmCGH3jdL9KMK+T8V9zsFrzQ/enDL1ISwTWRlcFh2Nq5yFx6wcU+w==",
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3460,7 +3422,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
+      "sha512": "qUJMNWhbm9oZ3XaMFiEMiYmRPszbnXIkRIi7+4b2Md2xZ6JUOepf0/kY3S85qistRohl9OdMe4PsO+RdG2kTIQ==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "files": [
@@ -3842,12 +3804,11 @@
       ]
     },
     "System.Text.Encoding/4.3.0": {
-      "sha512": "b/f+7HMTpxIfeV7H03bkuHKMFylCGfr9/U6gePnfFFW0aF8LOWLDgQCY6V1oWUqDksC3mdNuyChM1vy9TP4sZw==",
+      "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3910,11 +3871,10 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.4.0": {
-      "sha512": "FpAgMC+BX6OOCiRebYqHP3r3aYU7o0lopPOo4zKyGc5LWXFEYRUaKtoXXvAJ3sP+IDOK/KBxZaiVAdi+QdZ0TA==",
+      "sha512": "epF1P00AFbqPy5jZx3fpEn5qwlBDZ+dck71xYc/jLibfY6BtoFKOqoj84YHcQWV9HcWb7M13aVJ61XCdK8/3XA==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.4.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -4028,12 +3988,11 @@
       ]
     },
     "System.Threading.Tasks/4.3.0": {
-      "sha512": "fUiP+CyyCjs872OA8trl6p97qma/da1xGq3h4zAbJZk8zyaU4zyEfqW5vbkP80xG/Nimun1vlWBboMEk7XxdEw==",
+      "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
       "path": "system.threading.tasks/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4121,50 +4080,50 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Commmon.Utility >= 1.0.0",
-      "Devart.Data.Oracle.EFCore >= 9.6.675",
       "EFCore.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 2.2.1",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.1",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.1",
+      "Oracle.EntityFrameworkCore >= 2.18.0-beta3",
+      "Oracle.ManagedDataAccess.Core >= 2.18.6",
       "Z.EntityFramework.Extensions.EFCore >= 2.1.42"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jiede\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/yaojie/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\DotNetCoreFramework\\DataAccess\\EFCore.DataAccess\\EFCore.DataAccess.csproj",
+      "projectUniqueName": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/EFCore.DataAccess.csproj",
       "projectName": "EFCore.DataAccess",
-      "projectPath": "D:\\Repos\\DotNetCoreFramework\\DataAccess\\EFCore.DataAccess\\EFCore.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\jiede\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\DotNetCoreFramework\\DataAccess\\EFCore.DataAccess\\obj\\",
+      "projectPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/EFCore.DataAccess.csproj",
+      "packagesPath": "/Users/yaojie/.nuget/packages/",
+      "outputPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/DataAccess/EFCore.DataAccess/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jiede\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/yaojie/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Repos\\DotNetCoreFramework\\Entities\\EFCore.Entities\\EFCore.Entities.csproj": {
-              "projectPath": "D:\\Repos\\DotNetCoreFramework\\Entities\\EFCore.Entities\\EFCore.Entities.csproj"
+            "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Entities/EFCore.Entities/EFCore.Entities.csproj": {
+              "projectPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Entities/EFCore.Entities/EFCore.Entities.csproj"
             },
-            "D:\\Repos\\DotNetCoreFramework\\Utility\\Commmon.Utility\\Commmon.Utility.csproj": {
-              "projectPath": "D:\\Repos\\DotNetCoreFramework\\Utility\\Commmon.Utility\\Commmon.Utility.csproj"
+            "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/Commmon.Utility.csproj": {
+              "projectPath": "/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/Utility/Commmon.Utility/Commmon.Utility.csproj"
             }
           }
         }
@@ -4178,10 +4137,6 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Devart.Data.Oracle.EFCore": {
-            "target": "Package",
-            "version": "[9.6.675, )"
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[2.2.1, )"
@@ -4199,6 +4154,14 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.1, )"
+          },
+          "Oracle.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.18.0-beta3, )"
+          },
+          "Oracle.ManagedDataAccess.Core": {
+            "target": "Package",
+            "version": "[2.18.6, )"
           },
           "Z.EntityFramework.Extensions.EFCore": {
             "target": "Package",
