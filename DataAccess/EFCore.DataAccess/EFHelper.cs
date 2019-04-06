@@ -18,13 +18,13 @@ namespace EFCore.DataAccess
         public EFHelper()
         {
             this.DBCont = new T();
-            Z.EntityFramework.Extensions.LicenseManager.AddLicense("1638;100-Huawei", "77248321-6103-24d6-9a64-cbd2c71f7077");
+            //Z.EntityFramework.Extensions.LicenseManager.AddLicense("1638;100-Huawei", "77248321-6103-24d6-9a64-cbd2c71f7077");
         }
 
         public EFHelper(T obj)
         {
             this.DBCont = obj;
-            Z.EntityFramework.Extensions.LicenseManager.AddLicense("1638;100-Huawei", "77248321-6103-24d6-9a64-cbd2c71f7077");
+            //Z.EntityFramework.Extensions.LicenseManager.AddLicense("1638;100-Huawei", "77248321-6103-24d6-9a64-cbd2c71f7077");
         }
 
         #region Query
@@ -60,7 +60,7 @@ namespace EFCore.DataAccess
             try
             {
                 DBCont.BulkInsert(entities, opt =>
-                {
+                { 
                    //opt.CustomProvider = new Z.BulkOperations.CustomProvider(Z.BulkOperations.ProviderType.OracleDevArt); 
                 });
                 return (EnumMethodState.Success, string.Empty);

@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/DataAccess/EFCore.DataAccess/obj
+/DataAccess/EFCore.DataAccess/bin
+/Entities/EFCore.Entities/obj
+/Entities/EFCore.Entities/bin
+/UnitTests/EFCoreTests/bin
+/UnitTests/EFCoreTests/obj
+/Utility/Commmon.Utility/obj
+/Utility/Commmon.Utility/bin

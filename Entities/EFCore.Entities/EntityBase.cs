@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EFCore.Entities
 {
-    [NotMapped]
+    // [NotMapped]
     public class EntityBase
     {
         /// <summary>

@@ -12,16 +12,13 @@ namespace EFCoreTests
         {
             Console.WriteLine("Hello World!");
 
-            Z.EntityFramework.Extensions.LicenseManager.AddLicense("1638;100-Huawei","77248321-6103-24d6-9a64-cbd2c71f7077");
+            //Z.EntityFramework.Extensions.LicenseManager.AddLicense("1638;100-Huawei", "77248321-6103-24d6-9a64-cbd2c71f7077");
 
             var eft = new EFHelperTest();
-           var result = eft.InsertTest();
+            var result = eft.InsertTest();
             var json = JsonConvert.SerializeObject(result);
             Console.WriteLine(json);
-
-            //var list = eft.QueryTest();
-            //var json = JsonConvert.SerializeObject(list);
-            //Console.WriteLine(json);
+            
         }
     }
 }

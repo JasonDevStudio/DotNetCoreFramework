@@ -27,9 +27,9 @@ namespace EFCoreTests
             {
                 var userinfo = new UserInfo
                 {   
-                    ID = 2,
+                    //ID = 3,
                     ACCOUNT = "zhangsan",
-                    CREATEDATE = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss:ffff}",
+                    CREATEDATE = DateTime.Now,
                     NAME = "Yaojie",
                     STATUS = "A"
                 };
