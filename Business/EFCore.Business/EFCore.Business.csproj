@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Utility\Commmon.Utility\Commmon.Utility.csproj" />
+    <ProjectReference Include="..\..\Entities\EFCore.Entities\EFCore.Entities.csproj" />
+    <ProjectReference Include="..\..\DataAccess\EFCore.DataAccess\EFCore.DataAccess.csproj" />
+  </ItemGroup>
+</Project>

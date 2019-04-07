@@ -1,21 +1,29 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{F0EFD0DB-D1D4-4223-A4AE-2B5075A280F8}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.Workbench ActiveDocument="DotNetCoreFramework 状态">
     <Files>
-      <File FileName="UnitTests/EFCoreTests/Program.cs" Line="18" Column="1" />
-      <File FileName="UnitTests/EFCoreTests/EFHelperTest.cs" Line="37" Column="1" />
-      <File FileName="DataAccess/EFCore.DataAccess/EFHelper.cs" Line="77" Column="10" />
-      <File FileName="DataAccess/EFCore.DataAccess/OracleContext.cs" Line="30" Column="1" />
+      <File FileName="Business/EFCore.Business/BusinessBase.cs" Line="21" Column="35" />
+      <File FileName="UnitTests/EFCoreTests/Program.cs" Line="1" Column="1" />
+      <File FileName="UnitTests/EFCoreTests/EFHelperTest.cs" Line="22" Column="10" />
+      <File FileName="DataAccess/EFCore.DataAccess/EFHelper.cs" Line="60" Column="16" />
+      <File FileName="DataAccess/EFCore.DataAccess/OracleContext.cs" Line="26" Column="1" />
+      <File FileName="DataAccess/EFCore.DataAccess/DbContextBase.cs" Line="1" Column="1" />
       <File FileName="DotNetCoreFramework 状态" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DotNetCoreFramework" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="EFCore.Business" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+              </Node>
+            </Node>
             <Node name="DataAccess" expanded="True">
               <Node name="EFCore.DataAccess" expanded="True">
                 <Node name="EFHelper.cs" selected="True" />
               </Node>
             </Node>
+            <Node name="Entities" expanded="True" />
             <Node name="UnitTests" expanded="True">
               <Node name="EFCoreTests" expanded="True" />
             </Node>
@@ -30,13 +38,13 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Business.EFCore.Business FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.UnitTests.EFCoreTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreXUnitTests/EFCoreMSTests/UnitTest1.cs" relfile="UnitTests/EFCoreXUnitTests/EFCoreMSTests/UnitTest1.cs" line="15" column="29" />
       <Breakpoint file="/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreXUnitTests/UnitTest1.cs" relfile="UnitTests/EFCoreXUnitTests/UnitTest1.cs" line="14" column="14" />
-      <Breakpoint file="/Volumes/MAC_VM/00_GitHub/DotNetCoreFramework/UnitTests/EFCoreTests/Program.cs" relfile="UnitTests/EFCoreTests/Program.cs" line="17" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
