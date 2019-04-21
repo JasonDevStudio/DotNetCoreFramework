@@ -1,0 +1,9 @@
+D:\Repos\10_DotNetCoreFramework\JenkinsAgentService\bin\Debug\JenkinsAgentService.exe.config
+D:\Repos\10_DotNetCoreFramework\JenkinsAgentService\bin\Debug\JenkinsAgentService.exe
+D:\Repos\10_DotNetCoreFramework\JenkinsAgentService\bin\Debug\JenkinsAgentService.pdb
+D:\Repos\10_DotNetCoreFramework\JenkinsAgentService\obj\Debug\JenkinsAgentService.MainService.resources
+D:\Repos\10_DotNetCoreFramework\JenkinsAgentService\obj\Debug\JenkinsAgentService.ProjectInstaller.resources
+D:\Repos\10_DotNetCoreFramework\JenkinsAgentService\obj\Debug\JenkinsAgentService.csproj.GenerateResource.cache
+D:\Repos\10_DotNetCoreFramework\JenkinsAgentService\obj\Debug\JenkinsAgentService.csproj.CoreCompileInputs.cache
+D:\Repos\10_DotNetCoreFramework\JenkinsAgentService\obj\Debug\JenkinsAgentService.exe
+D:\Repos\10_DotNetCoreFramework\JenkinsAgentService\obj\Debug\JenkinsAgentService.pdb

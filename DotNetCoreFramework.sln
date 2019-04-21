@@ -24,6 +24,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.Business", "Business
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreTest", "EFCoreTest\EFCoreTest.csproj", "{217E812A-44F4-4FFF-AF83-D5252E86380D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{48BBB737-BD6F-4523-B412-97F7F2AD2DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsAgentService", "JenkinsAgentService\JenkinsAgentService.csproj", "{E7A4B969-11BC-4B27-97D0-576402C5A70E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,10 @@ Global
 		{217E812A-44F4-4FFF-AF83-D5252E86380D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217E812A-44F4-4FFF-AF83-D5252E86380D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217E812A-44F4-4FFF-AF83-D5252E86380D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A4B969-11BC-4B27-97D0-576402C5A70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A4B969-11BC-4B27-97D0-576402C5A70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A4B969-11BC-4B27-97D0-576402C5A70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A4B969-11BC-4B27-97D0-576402C5A70E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +73,7 @@ Global
 		{F0EFD0DB-D1D4-4223-A4AE-2B5075A280F8} = {B06C01DB-15B6-408E-9E60-3DAC99712F4D}
 		{02AB1DED-4A1C-45F0-AE42-8CD1931D83BF} = {808D12C0-9B67-4580-B0F1-6443FF1DD36C}
 		{217E812A-44F4-4FFF-AF83-D5252E86380D} = {B06C01DB-15B6-408E-9E60-3DAC99712F4D}
+		{E7A4B969-11BC-4B27-97D0-576402C5A70E} = {48BBB737-BD6F-4523-B412-97F7F2AD2DE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15057F20-B308-4910-9235-65E818C02861}

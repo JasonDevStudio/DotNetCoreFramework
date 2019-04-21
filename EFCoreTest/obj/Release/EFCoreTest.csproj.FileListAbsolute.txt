@@ -1,0 +1,6 @@
+D:\Repos\10_DotNetCoreFramework\EFCoreTest\bin\Release\EFCoreTest.exe.config
+D:\Repos\10_DotNetCoreFramework\EFCoreTest\bin\Release\EFCoreTest.exe
+D:\Repos\10_DotNetCoreFramework\EFCoreTest\bin\Release\EFCoreTest.pdb
+D:\Repos\10_DotNetCoreFramework\EFCoreTest\obj\Release\EFCoreTest.csproj.CoreCompileInputs.cache
+D:\Repos\10_DotNetCoreFramework\EFCoreTest\obj\Release\EFCoreTest.exe
+D:\Repos\10_DotNetCoreFramework\EFCoreTest\obj\Release\EFCoreTest.pdb
