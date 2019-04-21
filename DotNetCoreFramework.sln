@@ -1,25 +1,28 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.DataAccess", "DataAccess\EFCore.DataAccess\EFCore.DataAccess.csproj", "{99AC7C81-9070-45CE-A691-003C8EEDA84C}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.DataAccess", "DataAccess\EFCore.DataAccess\EFCore.DataAccess.csproj", "{99AC7C81-9070-45CE-A691-003C8EEDA84C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{FFAB1BAF-E405-4B87-8257-C33F89D8C72D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{7A0D2DAB-A3A3-4F67-A3F7-CBCD6A4A3EB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commmon.Utility", "Utility\Commmon.Utility\Commmon.Utility.csproj", "{5BA03251-3512-4178-8AA1-219FEDD53820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commmon.Utility", "Utility\Commmon.Utility\Commmon.Utility.csproj", "{5BA03251-3512-4178-8AA1-219FEDD53820}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{8B33D456-CA37-48A2-A1A8-FF04193561F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Entities", "Entities\EFCore.Entities\EFCore.Entities.csproj", "{2EB795AC-2503-4A6A-8708-E9B62A12895C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.Entities", "Entities\EFCore.Entities\EFCore.Entities.csproj", "{2EB795AC-2503-4A6A-8708-E9B62A12895C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{B06C01DB-15B6-408E-9E60-3DAC99712F4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreTests", "UnitTests\EFCoreTests\EFCoreTests.csproj", "{F0EFD0DB-D1D4-4223-A4AE-2B5075A280F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreTests", "UnitTests\EFCoreTests\EFCoreTests.csproj", "{F0EFD0DB-D1D4-4223-A4AE-2B5075A280F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{808D12C0-9B67-4580-B0F1-6443FF1DD36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Business", "Business\EFCore.Business\EFCore.Business.csproj", "{02AB1DED-4A1C-45F0-AE42-8CD1931D83BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.Business", "Business\EFCore.Business\EFCore.Business.csproj", "{02AB1DED-4A1C-45F0-AE42-8CD1931D83BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreTest", "EFCoreTest\EFCoreTest.csproj", "{217E812A-44F4-4FFF-AF83-D5252E86380D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +50,13 @@ Global
 		{02AB1DED-4A1C-45F0-AE42-8CD1931D83BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02AB1DED-4A1C-45F0-AE42-8CD1931D83BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02AB1DED-4A1C-45F0-AE42-8CD1931D83BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217E812A-44F4-4FFF-AF83-D5252E86380D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217E812A-44F4-4FFF-AF83-D5252E86380D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217E812A-44F4-4FFF-AF83-D5252E86380D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217E812A-44F4-4FFF-AF83-D5252E86380D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{99AC7C81-9070-45CE-A691-003C8EEDA84C} = {FFAB1BAF-E405-4B87-8257-C33F89D8C72D}
@@ -54,5 +64,9 @@ Global
 		{2EB795AC-2503-4A6A-8708-E9B62A12895C} = {8B33D456-CA37-48A2-A1A8-FF04193561F7}
 		{F0EFD0DB-D1D4-4223-A4AE-2B5075A280F8} = {B06C01DB-15B6-408E-9E60-3DAC99712F4D}
 		{02AB1DED-4A1C-45F0-AE42-8CD1931D83BF} = {808D12C0-9B67-4580-B0F1-6443FF1DD36C}
+		{217E812A-44F4-4FFF-AF83-D5252E86380D} = {B06C01DB-15B6-408E-9E60-3DAC99712F4D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15057F20-B308-4910-9235-65E818C02861}
 	EndGlobalSection
 EndGlobal
