@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="2.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Utility\Commmon.Utility\Commmon.Utility.csproj" />
     <ProjectReference Include="..\..\Entities\EFCore.Entities\EFCore.Entities.csproj" />
     <ProjectReference Include="..\..\DataAccess\EFCore.DataAccess\EFCore.DataAccess.csproj" />

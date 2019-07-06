@@ -61,7 +61,7 @@ namespace EFCore.DataAccess
             {
                 DBCont.BulkInsert(entities, opt =>
                 { 
-                   //opt.CustomProvider = new Z.BulkOperations.CustomProvider(Z.BulkOperations.ProviderType.OracleDevArt); 
+                   opt.CustomProvider = new Z.BulkOperations.CustomProvider(Z.BulkOperations.ProviderType.OracleManaged); 
                 });
                 return (EnumMethodState.Success, string.Empty);
             }

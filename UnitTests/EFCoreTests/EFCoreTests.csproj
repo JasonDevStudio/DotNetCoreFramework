@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,17 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Devart.Data.Oracle.key" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Devart.Data.Oracle.key">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="2.6.3" />
   </ItemGroup>
 
   <ItemGroup>

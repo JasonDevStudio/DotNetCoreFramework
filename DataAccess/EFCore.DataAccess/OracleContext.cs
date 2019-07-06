@@ -19,7 +19,7 @@ namespace EFCore.DataAccess
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserInfo>().ToTable("USERINFO", "USERTEST").HasKey(m => m.ID);
+            modelBuilder.Entity<UserInfo>().ToTable("USERINFO", "USERTEST").HasKey(m => m.ACCOUNT);
         }
     }
 }
